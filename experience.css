@@ -1,0 +1,34 @@
+* { box-sizing: border-box; }
+body{
+	background-color: #faeaee;
+	background-image: linear-gradient(#faeaee, #ffffff);
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+h1{
+ font-family: Trebuchet MS;
+ color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.part1{
+
+ font-family: Trebuchet MS, sans-serif;
+ font-size: 100%;
+ padding: 3em;
+ width: 75%;
+ margin-left:auto;
+ margin-right: auto;
+
+}
+
+
+.part2{
+ font-family: Trebuchet MS, sans-serif;
+ font-size: 100%;
+ padding: 3em;
+ width: 75%;
+ margin-left:auto;
+ margin-right: auto;
+}

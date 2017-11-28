@@ -1,0 +1,91 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <link rel="stylesheet" href="About.css">
+  <div style="text-align: center;">
+ </head>
+<body> 
+	<h1>About Me</h1> -->
+
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="About.css">
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="About.html" class="w3-bar-item w3-button">About Me</a>
+  <a href="Experience.html" class="w3-bar-item w3-button">My Experiences</a>
+  <a href="Contact.html" class="w3-bar-item w3-button">Contact Me</a>
+</div>
+
+<div id="main">
+
+<div class="w3-dark-grey">
+  <button id="openNav" class="w3-button w3-dark-grey w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>About Me</h1>
+  </div>
+</div>
+
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+<img src="Hima.jpg">
+
+
+
+	<p> 
+	  <div style="text-align: justify;">
+	  	<div class="intro1" >
+		My name is Hima Mistry and I am a senior at Drexel University studying Business Administration with a double major in Finance and Business Analytics and minor in Interactive Digital Media. I chose to pursue a major in finance because I liked the idea that the decisions that were made in finance were dependent on the events that were happening around the world. Living in a technology driven society, I wanted to have exposure to innovation, which starts with the analysis of raw data. My curiosity led me to my double major in business analytics. However, a part of me always wanted to pursue my creative side during undergrad and minoring in interactive digital media fulfilled that desire. 
+	</div>
+	</p>
+
+	<p>
+		<div class="intro2">
+		At Drexel, I am involved in Alpha Kappa Psi, a co-ed professional business fraternity, Delta Phi Epsilon, an international sorority and Dean's Student Advisory Board (DSAB) In Alpha Kappa Psi, I held two positions: Chapter Relations Chair and Rush Chair. As chapter relations chair, I coordinated with other chapters around the country to coordinate a joint professional event. As rush chair, I was in charge of planning five days of events for prospective members and overseeing a committee of 10 people. In Delta Phi Epsilon, I served as the Vice President of Finance and was accountable for the budget of the organization. As a board member for DSAB, I have acted as a liaison for the students and the Dean to implement improvements to the school. 
+	</div>
+	</p>
+	
+		<div style="text-align: center;">
+
+
+<!--
+    <div class="fixed-header">
+        <div class="container">
+
+            <nav>
+                <a href="#">About</a>
+                <a href="#">My Experiences</a>
+                <a href="#">Contact Me</a>
+                
+            </nav> 
+        <div class= "fixed-footer">
+        </div> -->
+
+
+
+
+
+ </body>
+</html>

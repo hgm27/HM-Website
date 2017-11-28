@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+body{
+	background-color: #faeaee;
+	background-image: linear-gradient(#faeaee, #ffffff);
+	height: ;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+}
+
+h1{
+ font-family: Trebuchet MS;
+ color: #ffffff;
+ font-size: 1.5rem;
+
+}
+
+.information{
+
+ text-align: center;
+}
+
+.container{
+        width: 0 auto;
+        margin: 0 auto; 
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 7px;
+        color: #777777;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    
+    nav a{
+    	width: auto;
+        color: #fff;
+        font-family: Trebuchet MS;
+        padding: 7px 25px;
+       display: inline-block; 
+      
+    }
