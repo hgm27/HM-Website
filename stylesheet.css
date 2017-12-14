@@ -190,7 +190,7 @@ h2{
 .goldman {
     height: 150px;
     width: 150px;
-    padding: 3px;
+    padding: 10px;
     position: relative;
 
 }
@@ -198,17 +198,18 @@ h2{
 .gt{
     height: 150px;
     width: 250px;
-    padding: 3px;
+    padding: 10px;
     position: relative;
-  
+
     
 }
 
 .chubb{
     height: 150px;
     width: 100px;
-    padding: 3px;
+    padding: 10px;
     position:relative;
+
     
 }
 
